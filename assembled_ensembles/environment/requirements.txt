@@ -1,0 +1,4 @@
+scikit-learn==1.0.2
+assembled[openml]==0.0.4
+cma==3.2.2
+ConfigSpace==0.6.1

@@ -1,0 +1,40 @@
+{
+  "framework_to_use": "autogluon",
+  "framework_extras": {
+    "metric": "balanced_accuracy",
+    "file_format": "hdf"
+  },
+  "base_model_pruners": [
+    "TopN"
+  ],
+  "framework_cpus": -1,
+  "framework_memory_gbs": 32,
+  "framework_time_hours": 4,
+  "slurm_cpus": 8,
+  "slurm_extras": {
+    "run_ag_on_metatask": {
+      "framework_time_hours": 4,
+      "framework_memory_gbs": 0
+    },
+    "run_full_metatask_builder": {
+      "framework_time_hours": 19,
+      "framework_memory_gbs": 64
+    }
+  },
+  "special_cases": {
+    "framework_memory_gbs": {
+      "7593": 32,
+      "360113": 32,
+      "360114": 32,
+      "359994": 32,
+      "189356": 32,
+      "189354": 32,
+      "359976": 32,
+      "359986": 32,
+      "360112": 96,
+      "189355": 96,
+      "360975": 96
+    }
+  },
+  "default_load_method": "delayed"
+}

@@ -1,0 +1,55 @@
+{
+  "SingleBest": {
+    "method": "SingleBest"
+  },
+  "LogisticRegressionStacking": {
+    "method": "LogisticRegressionStacking"
+  },
+  "EnsembleSelection|use_best": {
+    "method": "EnsembleSelection",
+    "use_best": true
+  },
+  "CMA-ES|batch_size:dynamic|normalize_weights:no": {
+    "method": "CMA-ES",
+    "batch_size": "dynamic",
+    "bounded": false,
+    "normalize_weights": "no",
+    "sigma0": false,
+    "single_best_fallback": false,
+    "start_weight_vector_method": false,
+    "weight_vector_ensemble": false
+  },
+  "CMA-ES|batch_size:dynamic|normalize_weights:softmax|trim_weights:no": {
+    "method": "CMA-ES",
+    "batch_size": "dynamic",
+    "bounded": false,
+    "normalize_weights": "softmax",
+    "sigma0": false,
+    "single_best_fallback": false,
+    "start_weight_vector_method": false,
+    "weight_vector_ensemble": false,
+    "trim_weights": "no"
+  },
+  "CMA-ES|batch_size:dynamic|normalize_weights:softmax|trim_weights:ges-like-raw": {
+    "method": "CMA-ES",
+    "batch_size": "dynamic",
+    "bounded": false,
+    "normalize_weights": "softmax",
+    "sigma0": false,
+    "single_best_fallback": false,
+    "start_weight_vector_method": false,
+    "weight_vector_ensemble": false,
+    "trim_weights": "ges-like-raw"
+  },
+  "CMA-ES|batch_size:dynamic|normalize_weights:softmax|trim_weights:ges-trim-round": {
+    "method": "CMA-ES",
+    "batch_size": "dynamic",
+    "bounded": false,
+    "normalize_weights": "softmax",
+    "sigma0": false,
+    "single_best_fallback": false,
+    "start_weight_vector_method": false,
+    "weight_vector_ensemble": false,
+    "trim_weights": "ges-trim-round"
+  }
+}

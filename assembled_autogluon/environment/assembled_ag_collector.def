@@ -1,0 +1,16 @@
+Bootstrap: docker
+FROM: python:3.8.10
+
+%post
+	apt-get update
+	apt-get install build-essential swig python-dev -y
+    pip install -U pip && pip install -U setuptools wheel
+    pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchtext==0.13.1 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+    pip install autogluon==0.6.2
+    pip install --no-cache-dir --no-dependencies assembled[openml]==0.0.4
+    pip install --no-cache-dir numpy pandas scikit-learn scipy tables openml requests
+
+%runscript
+    echo "Container was created $NOW"
+    echo "Arguments received: $*"
+    exec echo "$@"
