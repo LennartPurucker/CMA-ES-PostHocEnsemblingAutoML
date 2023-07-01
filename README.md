@@ -79,7 +79,7 @@ Please refer to `./assembled_ensembles/README.md` for details.
 
 Please refer to `./benchmark/evaluation/README.md` for details.
 
-## Relevant publication
+## Relevant Publication
 
 If you use our code or the data produced by our code in scientific publications, we would appreciate citations.
 
