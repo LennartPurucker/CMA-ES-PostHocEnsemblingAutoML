@@ -20,7 +20,7 @@ Many state-of-the-art automated machine learning (AutoML) systems use greedy ens
 al. (2004) to ensemble models found during model selection post hoc. Thereby, boosting predictive performance and likely
 following Auto-Sklearn 1's insight that alternatives, like stacking or gradient-free numerical optimization, overfit.
 Overfitting in Auto-Sklearn 1 is much more likely than in other AutoML systems because it uses only low-quality
-validation data for post hoc ensembling. Therefore, we were motivated to analyse whether Auto-Sklearn 1's insight holds
+validation data for post hoc ensembling. Therefore, we were motivated to analyze whether Auto-Sklearn 1's insight holds
 true for systems with higher-quality validation data. Consequently, we compared the performance of covariance matrix
 adaptation evolution strategy (CMA-ES), state-of-the-art gradient-free numerical optimization, to GES on the 71
 classification datasets from the AutoML benchmark for AutoGluon. We found that Auto-Sklearn's insight depends on the
@@ -31,6 +31,9 @@ CMA-ES from overfitting for ROC AUC. We propose a method to normalize the weight
 that avoids overfitting for CMA-ES and makes CMA-ES perform better than or similar to GES for ROC AUC.
 
 ## Results Teaser
+
+The goal of _post hoc ensembling_ for AutoML is to aggregate a pool of base models consisting of all models that are
+trained and validated during an AutoML system's model selection or a subset thereof.
 
 In our paper, we proposed to use `CMA-ES` for post hoc ensembling in AutoML. 
 We compared `CMA-ES` to `GES`, `Stacking` with a linear model, and the single best model (no ensembling) `SingleBest`.
@@ -47,7 +50,7 @@ For more details and results, see our paper (links can be found at the bottom of
 ## Data
 
 Parts of our code generated data that we used in our paper.
-To access the data, please see: **_TBA_**
+To access the data, please see: [DOI](https://doi.org/10.6084/m9.figshare.23609361).
 
 ## Content Overview
 
@@ -83,8 +86,10 @@ If you use our code or the data produced by our code in scientific publications,
 **CMA-ES for Post Hoc Ensembling in AutoML: A Great Success and Salvageable Failure**,
 _Lennart Purucker, Joeran Beel_, _Second Conference on Automated Machine Learning, 2023_.
 
-Link to publication: **_TBA_**
+Link to publication: OpenReview and arXiv (**_TBA_**)
+
 Link to teaser video: **_TBA_**
+
 Link to full video: **_TBA_**
 
 ```
