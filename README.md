@@ -39,7 +39,7 @@ In our paper, we proposed to use `CMA-ES` for post hoc ensembling in AutoML.
 We compared `CMA-ES` to `GES`, `Stacking` with a linear model, and the single best model (no ensembling) `SingleBest`.
 Additionally, we proposed a novel normalization method for CMA-ES to avoid overfitting for ROC AUC, denoted as `CMA-ES-ExplicitGES`.
 
-Below are the Critical Differences (CD) plots for binary and multi-class classification for the 71 dataset from 
+Below are the Critical Differences (CD) plots for binary and multi-class classification for the 71 datasets from 
 the AutoML benchmark. The plots are additionally split for balanced accuracy and ROC AUC, because these represent different 
 optimization problems. Methods connected by a vertical bar are not significantly different. The axis at the top and 
 the line connected to a method's name indicate the mean rank of the method. The lower the rank, the better the method.
@@ -57,8 +57,8 @@ To access the data, please see: [DOI](https://doi.org/10.6084/m9.figshare.236093
 * `assembled_autogluon`: Contains the code to run AutoGluon on the dataset from the AutoML benchmark and save data for
   base models.
 * `assembled_ensemlbes`: Contains all code related to running ensemble methods.
-* `benchmark`: contains example data and is used as output directory for the minimal example
-* `conf`: Contains the all setup data used to run the scripts
+* `benchmark`: contains example data and is used as an output directory for the minimal example
+* `conf`: Contains all setup data used to run the scripts
 * `evaluation`: contains the raw results and the code to produce the plots and evaluation results of the paper
 * `util`: contains scripts to get data related to the project
 
