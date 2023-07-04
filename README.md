@@ -86,7 +86,7 @@ If you use our code or the data produced by our code in scientific publications,
 **CMA-ES for Post Hoc Ensembling in AutoML: A Great Success and Salvageable Failure**,
 _Lennart Purucker, Joeran Beel_, _Second International Conference on Automated Machine Learning, 2023_.
 
-Link to publication: OpenReview and arXiv (**_TBA_**)
+Link to publication: OpenReview (**_TBA_**) and [arXiv](https://arxiv.org/abs/2307.00286)
 
 Link to teaser video: **_TBA_**
 
