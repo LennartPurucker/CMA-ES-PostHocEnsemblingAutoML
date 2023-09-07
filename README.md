@@ -86,12 +86,19 @@ If you use our code or the data produced by our code in scientific publications,
 **CMA-ES for Post Hoc Ensembling in AutoML: A Great Success and Salvageable Failure**,
 _Lennart Purucker, Joeran Beel_, _Second International Conference on Automated Machine Learning, 2023_.
 
-Link to publication: OpenReview (**_TBA_**) and [arXiv](https://arxiv.org/abs/2307.00286)
+Link to publication: [OpenReview](https://openreview.net/forum?id=MeCwOxob8jfl) and [arXiv](https://arxiv.org/abs/2307.00286)
 
-Link to teaser video: **_TBA_**
+Link to teaser video: [YouTube](https://www.youtube.com/watch?v=ejAIstHl_SY&list=PLp7L30nGpKM8_lzMdDbUnYXUlfBGH_EA2&index=11)
 
-Link to full video: **_TBA_**
+Link to full video: [YouTube](https://www.youtube.com/watch?v=nWlzUwgJ-wM&list=PLp7L30nGpKM-6Y7LQdtb6TWX3o1d9BDSs&index=12)
 
 ```
-@inproceedings{TBA}
+@inproceedings{
+  purucker2023cmaes,
+  title={{CMA}-{ES} for Post Hoc Ensembling in Auto{ML}: A Great Success and Salvageable Failure},
+  author={Lennart Purucker and Joeran Beel},
+  booktitle={AutoML Conference 2023},
+  year={2023},
+  url={https://openreview.net/forum?id=MeCwOxob8jfl}
+}
 ```
